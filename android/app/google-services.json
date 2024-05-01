@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1025667419832",
+    "project_id": "musabboltportfolio",
+    "storage_bucket": "musabboltportfolio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025667419832:android:f75b0fa376b26d97c12e4d",
+        "android_client_info": {
+          "package_name": "com.example.web_portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfwMVYGuqUJkwnzecN3E1TOHbC_oe4wOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

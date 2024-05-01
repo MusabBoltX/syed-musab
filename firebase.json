@@ -1,0 +1,42 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "musabboltportfolio",
+          "appId": "1:1025667419832:android:f75b0fa376b26d97c12e4d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "musabboltportfolio",
+          "appId": "1:1025667419832:ios:9afb85cd8676e6f0c12e4d",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "musabboltportfolio",
+          "configurations": {
+            "android": "1:1025667419832:android:f75b0fa376b26d97c12e4d",
+            "ios": "1:1025667419832:ios:9afb85cd8676e6f0c12e4d",
+            "web": "1:1025667419832:web:84cbe7dce036491ec12e4d"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "asia-east1"
+    }
+  }
+}

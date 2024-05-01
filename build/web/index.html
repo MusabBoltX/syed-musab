@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -11,23 +11,22 @@
     Fore more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="A Flutter Developer and a mobile app enthusiast focused on product development and attention to detail">
   <link rel="stylesheet" href="loader.css">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="web_portfolio">
+  <meta name="apple-mobile-web-app-title" content="SyedMusab">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>web_portfolio</title>
+  <title>Syed Musab</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -41,7 +40,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3281612056');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2649310704');
       });
     }
   </script>
@@ -52,5 +51,30 @@
   </script>
   <!-- <script src="" type="application/javascript"
   onendload="document.getElementById('loader').remove();"></script> -->
+
+  <script src="main.dart.js" type="application/javascript"></script>>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDf2CHruT7fLeUN6x6rN-pz9lKMsCJqtYY",
+    authDomain: "musabboltportfolio.firebaseapp.com",
+    projectId: "musabboltportfolio",
+    storageBucket: "musabboltportfolio.appspot.com",
+    messagingSenderId: "1025667419832",
+    appId: "1:1025667419832:web:a81e4840cbde2762c12e4d",
+    measurementId: "G-3WPZ191MN3"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 </html>

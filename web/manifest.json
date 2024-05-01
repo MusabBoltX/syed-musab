@@ -1,11 +1,11 @@
 {
-    "name": "SyedMusab",
-    "short_name": "SyedMusab",
+    "name": "Syed Musab",
+    "short_name": "Syed Musab",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A portfolio app by Syed Musab.",
+    "description": "A Flutter Developer and a mobile app enthusiast focused on product development and attention to detail",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
