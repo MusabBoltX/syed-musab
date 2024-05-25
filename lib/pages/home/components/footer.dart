@@ -165,6 +165,19 @@ Widget _buildUi(double width, BuildContext context) {
                 ],
               ),
               SizedBox(height: 20.0),
+              Align(
+                alignment: Alignment.center,
+                child: Text(
+                  "Made with ♥️ on Flutter Web",
+                  style: GoogleFonts.oswald(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w400,
+                    fontSize: 20,
+                    wordSpacing: 2,
+                  ),
+                ),
+              ),
+              SizedBox(height: 20.0),
               Flex(
                 direction: ScreenHelper.isMobile(context)
                     ? Axis.vertical
